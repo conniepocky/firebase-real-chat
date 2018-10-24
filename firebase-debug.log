@@ -1,0 +1,25 @@
+[debug] [2018-10-22T17:59:40.119Z] ----------------------------------------------------------------------
+[debug] [2018-10-22T17:59:40.121Z] Command:       /usr/bin/node /usr/local/bin/firebase serve --only hosting
+[debug] [2018-10-22T17:59:40.121Z] CLI Version:   5.1.1
+[debug] [2018-10-22T17:59:40.121Z] Platform:      linux
+[debug] [2018-10-22T17:59:40.121Z] Node Version:  v8.10.0
+[debug] [2018-10-22T17:59:40.121Z] Time:          Mon Oct 22 2018 18:59:40 GMT+0100 (BST)
+[debug] [2018-10-22T17:59:40.121Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-22T17:59:40.127Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-22T17:59:40.127Z] > authorizing via signed-in user
+[debug] [2018-10-22T17:59:40.127Z] [iam] checking project friendlychat-656e4 for permissions ["firebase.projects.get"]
+[debug] [2018-10-22T17:59:40.129Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-656e4:testIamPermissions  
+
+[debug] [2018-10-22T17:59:41.072Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-22T17:59:41.074Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendlychat-656e4  
+ 
+[debug] [2018-10-22T17:59:41.855Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/connie/Desktop/firebase-stuff/friendlychat-web/web-start'...
+[info] 
+[debug] [2018-10-22T17:59:41.860Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/702369559650/clients/_:getWebAppConfig  
+ 
+[debug] [2018-10-22T17:59:42.287Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000
